@@ -1,0 +1,19 @@
+[
+  {
+    "id" : 1,
+    "text" : "spooky things",
+    "type" : "standard"
+  },
+  {
+    "id" : 2,
+    "text" : "spooky things",
+    "type" : "clue",
+    "threshold" : 3
+  },
+  {
+    "id" : 3,
+    "text" : "spooky things",
+    "type" : "doom",
+    "threshold" : 3
+  }
+]
