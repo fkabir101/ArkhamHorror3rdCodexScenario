@@ -1,0 +1,30 @@
+[
+  {
+    "id" : 0,
+    "name" : "Echos of the Deep",
+    "reconing" : "Add 1 Doom to the Scenario Sheet",
+    "text" : "The Story so far:",
+    "starting location" : "Some Place"
+  },
+  {
+    "id" : 1,
+    "name" : "Approach of Azathoth",
+    "reconing" : "Add 1 Doom to the Scenario Sheet",
+    "text" : "The Story so far:",
+    "starting location" : "Some Place"
+  },
+  {
+    "id" : 2,
+    "name" : "Veil of Twilight",
+    "reconing" : "Add 1 Doom to the Scenario Sheet",
+    "text" : "The Story so far:",
+    "starting location" : "Some Place"
+  },
+  {
+    "id" : 3,
+    "name" : "Feast for Unhordnoth",
+    "reconing" : "Add 1 Doom to the Scenario Sheet",
+    "text" : "The Story so far:",
+    "starting location" : "Some Place"
+  }
+]
