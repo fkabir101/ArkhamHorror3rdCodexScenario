@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
+import ScenarioCard from "./components/ScenarioCard"
 
 class App extends Component {
   render(){
-    <div className="App">
-
-    </div>
+    return(
+      <div className="App">
+        <ScenarioCard></ScenarioCard>
+      </div>
+    )
   }
 }
 
