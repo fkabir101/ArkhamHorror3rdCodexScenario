@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import ScenarioCard from "./components/ScenarioCard";
-import Scenarios from "./json/scenario.json";
+import ScenarioPage from "./pages/ScenarioSelect";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends Component {
   render(){
     return(
       <div className="App">
-        {Scenarios.map(scenario => {
-          return <ScenarioCard id={scenario.id}></ScenarioCard>
-        })}
+        <Router>
+          <Switch>
+          <Route exact path="/" render={() =>  <ScenarioPage></ScenarioPage>}/>
+          </Switch>
+        </Router>
       </div>
     )
   }

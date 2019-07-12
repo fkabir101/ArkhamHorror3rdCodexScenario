@@ -13,6 +13,7 @@ class ScenarioCard extends Component{
           <p>The story so far:</p>
           <p>{Scenarios[this.state.scenarioId].text}</p>
           <p>Starting Location: {Scenarios[this.state.scenarioId].starting}</p>
+          <button className = "btn btn-success">Slect</button>
         </div>
       </div>
     )
