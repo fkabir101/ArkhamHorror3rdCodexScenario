@@ -1,5 +1,6 @@
 import  React, { Component } from 'react';
 import Scenarios from "../json/scenario.json";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 class ScenarioCard extends Component{
   state = {
     scenarioId : this.props.id
@@ -13,7 +14,11 @@ class ScenarioCard extends Component{
           <p>The story so far:</p>
           <p>{Scenarios[this.state.scenarioId].text}</p>
           <p>Starting Location: {Scenarios[this.state.scenarioId].starting}</p>
-          <button className = "btn btn-success">Slect</button>
+          <Router>
+            <Switch>
+              <Route exact path="/" render ={() =>   <button className = "btn btn-success">Slect</button>}/>
+            </Switch>
+          </Router>
         </div>
       </div>
     )

@@ -4,7 +4,7 @@ import Scenarios from "../json/scenario.json";
 
 function ScenarioPage() {
   return (
-    <div className="App">
+    <div>
       {Scenarios.map(scenario => {
         return <ScenarioCard id={scenario.id}></ScenarioCard>
       })}
